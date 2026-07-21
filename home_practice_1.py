@@ -1,0 +1,126 @@
+# Qno 1    Create two integer variables length and breadth and assign values then check
+#  if they are square values or rectangle values.
+# ie: if both values are equal then it's square otherwise rectangle.
+
+
+# length = 10
+# breath = 10
+
+# if length == breath:
+#   print("squre value")
+# else:
+#   print("Ragtangular")
+
+
+# Q.2: Take two variables and store age then using 
+# if/else condition to determine oldest and youngest among them.) 
+
+# age1 = 2
+# age2 = 80
+
+# if age1 > age2:
+#  print("age1 is older")
+#  print("age2 is young")
+
+# elif age2 > age1:
+#   print("age2 is older ") 
+#   print("age1 is young  ") 
+
+# else:
+#    print("both are of the age same") 
+
+
+# ///////////////////
+
+# Q.3: A student will not be allowed to sit in exam if his/her attendance is less than 75%. Create integer variables and assign value:
+# Number of classes held = 16,
+# Number of classes attended = 10,
+# and print percentage of class attended.
+# Is student is allowed to sit in exam or not?
+
+
+# class_held = 11
+# clas_attend = 10 
+
+# percentage  = clas_attend/ class_held * 100
+
+# if percentage >=75:
+#   print(f"you are allowed {percentage:.2f}%")
+# else:
+#   print(f"you are not allowed {percentage:.2}%")    
+
+#////////////////
+
+# Q.4: Create integer variable assign any year to it and check if a year is leap year or not.
+# If a year is divisible by 4 then it is leap year but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400.
+# i.e: Use % ( modulus ) operator. 
+
+
+# leap_year = int(2004)
+# leap_century = int(1900)
+
+# if leap_year % 4 == 0:
+#   print("leap year")
+
+# if leap_century % 100 == 0:
+#   if leap_century % 400 == 0:
+#     print("leap century year")
+#   else:
+#    print("century year but not a leap year")
+# else:
+#    print("is not leap_year and leap_century")   
+
+# /////////////////
+
+
+# Q.5: Write a program to check whether an alphabet is a vowel or consonant.
+
+# user = str(input("Enter vowel words "))
+
+# if not user.isalpha():
+#      print("Invalid user input")  
+ 
+# elif  user == "a" or user == "e" or  user == "i" or  user == "o" or  user == "u":
+#      print("it's a vowel words")  
+# else:
+#     print("it's a consonant")    
+
+# Q.6 Write a program to read temperature in centigrade and display a
+#  suitable message according to temperature:
+
+
+# temperature = float(input("Enter your number"))
+
+# if temperature <0:
+#     print("Freezing temperature")
+# elif temperature >=0 and temperature <=10:
+#     print("Very cold temperature")
+# elif temperature >10 and temperature <=20:
+#     print("Cold temperature")   
+# elif temperature >20 and temperature <=30:
+#     print("Normal temperature")    
+# elif temperature >30 and temperature <=40:
+#     print("Its Hot")    
+# elif temperature >40 :
+#     print("Its very Hot")
+# else:
+#     print("Invalid input. please Enter a valid input")
+
+
+# temperature = float(input("Enter the temperature in °C: "))
+
+# if temperature < 0:
+#     print("Freezing weather")
+# elif temperature <= 10:
+#     print("Very Cold weather")
+# elif temperature <= 20:
+#     print("Cold weather")
+# elif temperature <= 30:
+#     print("Normal in Temp")
+# elif temperature <= 40:
+#     print("It's Hot")
+# else:
+#     print("It's Very Hot")
+
+
+# ./////////////////
